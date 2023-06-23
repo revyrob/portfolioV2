@@ -15,8 +15,7 @@ module.exports = {
         // Roboto: "Roboto",
       },
       backgroundImage: {
-        // "chevron-up": "url('/assets/icons/chevron-up.svg')",
-        // "chevron-down": "url('/assets/icons/chevron-down.svg')",
+        "hero-pattern": "url('/assets/mountain.png')",
       },
       keyframes: {
         marquee: {
