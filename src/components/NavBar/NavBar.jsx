@@ -38,30 +38,7 @@ function Nav() {
     <AppBar position="static" className="bg-gray-900 max-w-screen-xl mx-auto ">
       <Container maxWidth="2xl" className="bg-gray-900">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontWeight: 700,
-              fontFamily: "oswald",
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            {/* <a href="/" className="flex items-center">
-              <img
-                //src={logo}
-                className="h-6 mr-3 sm:h-9"
-                alt="briancon fantomes logo"
-              />
-            </a> */}
-            Kayle.
-          </Typography>
+        
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -93,15 +70,29 @@ function Nav() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {headings.map((i) => (
-                <MenuItem onClick={handleCloseNavMenu} key={i.toString()}>
-                  <a href={`#${i.toLowerCase()}`}>
+              
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <a href="/">
                     <Typography className="text-black " sx={{ minWidth: 100 }}>
-                      {i}
+                     Projects
                     </Typography>
                   </a>
                 </MenuItem>
-              ))}
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <a href="/">
+                    <Typography className="text-black " sx={{ minWidth: 100 }}>
+                     About Me
+                    </Typography>
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <a href="/">
+                    <Typography className="text-black " sx={{ minWidth: 100 }}>
+                    Resume
+                    </Typography>
+                  </a>
+                </MenuItem>
+            
 
               <MenuItem>
              
