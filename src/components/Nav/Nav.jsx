@@ -8,6 +8,7 @@ function Nav() {
 
     //problem is that there is only one use state for both my drop down menus.  i need to fix this
     const [anchorEl, setAnchorEl] = useState(null)
+    const [menuEl, setMenuEl] = useState(null)
     
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -15,6 +16,14 @@ function Nav() {
     
       const handleCloseNavMenu = () => {
         setAnchorEl(null);
+      };
+
+      const handleClickDropMenu = (event) => {
+        setMenuEl(event.currentTarget);
+      };
+    
+      const handleCloseDropMenu = () => {
+        setMenuEl(null);
       };
 
 
@@ -29,13 +38,13 @@ function Nav() {
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
-              //onClick={handleOpenNavMenu}
+              onClick={handleClickDropMenu}
               color="black"
               //className="hover:text-red-700"
             > <MenuIcon /></IconButton>
             <Menu
               id="menu-appbar"
-              anchorEl={anchorEl}
+              anchorEl={menuEl}
               anchorOrigin={{
                 vertical: "bottom",
                 horizontal: "left",
@@ -45,27 +54,23 @@ function Nav() {
                 vertical: "top",
                 horizontal: "left",
               }}
-              open={Boolean(anchorEl)}
-              onClose={handleCloseNavMenu}
+              open={Boolean(menuEl)}
+              onClose={handleCloseDropMenu}
               sx={{
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem onClick={handleCloseNavMenu}>
-                  <a href="/">
-                  
+              <MenuItem onClick={handleClick} hover={Boolean(anchorEl)}>
                      Projects
-                    
-                  </a>
                 </MenuItem>
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem >
                   <a href="/">
                    
                      About Me
                    
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleCloseNavMenu}>
+                <MenuItem >
                   <a href="/">
                  
                     Resume
@@ -76,20 +81,23 @@ function Nav() {
          
                 </Menu>
                 </Box>
-
-<Box>
+                <Box
+            className="flex justify-left items-center"
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+          >
             <Stack direction="row" spacing={2}>
                 <Button style={{ color: 'black' }} id="resources-button" onClick={handleClick}>Projects</Button>
                 <Button style={{ color: 'black' }}>About Me</Button>
                 <Button style={{ color: 'black' }}>Resume</Button>
             </Stack>
-            {/* <Menu id="resources-menu" anchorEl={anchorEl} open={Boolean(anchorEl)}
+            <Menu id="resources-menu" anchorEl={anchorEl} open={Boolean(anchorEl)}
               onClose={handleCloseNavMenu}>
-                <MenuItem>Project1</MenuItem>
-                <MenuItem>Project2</MenuItem>
-                <MenuItem>Project3</MenuItem>
+                
+                <MenuItem><a href="/project1">Project1</a></MenuItem>
+                <MenuItem><a href="/project1">Project2</a></MenuItem>
+                <MenuItem><a href="/project1">Project3</a></MenuItem>
 
-            </Menu> */}
+            </Menu>
             </Box>
         </Toolbar>
         </Container>
