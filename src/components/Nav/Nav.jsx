@@ -40,7 +40,6 @@ function Nav() {
               aria-haspopup="true"
               onClick={handleClickDropMenu}
               color="black"
-              //className="hover:text-red-700"
             > <MenuIcon /></IconButton>
             <Menu
               id="menu-appbar"
@@ -64,21 +63,15 @@ function Nav() {
                      Projects
                 </MenuItem>
                 <MenuItem >
-                  <a href="/">
-                   
-                     About Me
-                   
+                  <a href="/">        
+                     About Me 
                   </a>
                 </MenuItem>
                 <MenuItem >
                   <a href="/">
-                 
                     Resume
-                  
                   </a>
                 </MenuItem>
-                
-         
                 </Menu>
                 </Box>
                 <Box

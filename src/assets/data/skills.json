@@ -1,0 +1,18 @@
+[
+  {
+    "skill": "CSS",
+    "img": "../../icons/css.png"
+  },
+  {
+    "skill": "Express",
+    "img": "./../icons/express.png"
+  },
+  {
+    "skill": "Flutter",
+    "img": "../../icons/flutter.png"
+  },
+  {
+    "skill": "HTML",
+    "img": "../../icons/html.png"
+  }
+]
