@@ -20,16 +20,16 @@ const bgArray = oddArray.filter(j => j !== null)
 
   return (
     <section className='bg-[#7FBABB] min-h-[400px] w-full py-[2rem] '>
-        <div className='bg-white rounded-lg min-h-[350px] w-3/4 m-auto flex justify-center items-center '>
-<img src={ladySkills} alt='working woman with skills' className='invisible object-none object-center lg:visible' />
-
+        <div className='bg-white rounded-lg min-h-[350px] w-3/4 m-auto flex-col justify-center items-center '>
+<img src={ladySkills} alt='working woman with skills' className='invisible object-none object-center lg:visible m-auto pt-[2%]' />
+<div className='flex justify-evenly items-center'>
 {smArray.map((i) => ( 
               <SmBall imgSkill={i.img} imgSkillText={i.skill}/>
             ))}
 {bgArray.map((i) => (
               <LgBall imgSkill={i.img} imgSkillText={i.skill}/>
             ))}
-        
+        </div>
         </div>
         
     </section>
