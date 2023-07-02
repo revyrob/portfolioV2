@@ -1,10 +1,12 @@
 import React from 'react'
 
-function LgBall({imgSkill}) {
+function LgBall({imgSkill, imgSkillText}) {
   return (
-    <div className='rounded-full border-2 border-grey-800 w-[95px] h-[95px]'>
-        {imgSkill}
-    </div>
+    <div className='rounded-full border-2 border-grey-800 w-[95px] h-[95px] flex justify-center items-center'>
+<img className="w-[50px]" src={imgSkill} alt={imgSkillText}/>
+</div>   
+
+
   )
 }
 
