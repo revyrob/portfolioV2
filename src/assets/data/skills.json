@@ -14,5 +14,33 @@
   {
     "skill": "HTML",
     "img": "../../icons/html.png"
+  },
+  {
+    "skill": "JS",
+    "img": "../../icons/js.png"
+  },
+  {
+    "skill": "Mongo",
+    "img": "../../icons/mongo.png"
+  },
+  {
+    "skill": "MySQL",
+    "img": "../../icons/mysql.png"
+  },
+  {
+    "skill": "Node",
+    "img": "../../icons/node.png"
+  },
+  {
+    "skill": "python",
+    "img": "../../icons/python.png"
+  },
+  {
+    "skill": "React",
+    "img": "../../icons/react.png"
+  },
+  {
+    "skill": "sass",
+    "img": "../../icons/sass.png"
   }
 ]
