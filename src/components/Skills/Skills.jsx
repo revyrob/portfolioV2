@@ -21,8 +21,9 @@ function Skills() {
   return (
     <section className='bg-[#7FBABB] min-h-[400px] w-full py-[2rem]'>
     <div className='bg-white rounded-lg min-h-[350px] w-3/4 m-auto relative'>
-    <img src={ladySkills} alt='working woman with skills' className='z-0 absolute inset-0 invisible object-none lg:visible mx-auto pt-[5%]' />
-    <div className='p-[2rem] m-auto min-h-[350px] py-auto'>
+    <img src={ladySkills} alt='working woman with skills' className='invisible object-none lg:visible absolute pl-[2%] pt-[7%]' />
+    <h1 className='text-4xl absolute pl-[15%] pt-[20%]'>Skills</h1>
+   <div className='p-[2rem] m-auto min-h-[350px] py-auto  pl-[15%]'>
     <div className='z-10 flex flex-wrap justify-around px-[1rem] py-[2rem]'>
     {smArray.map((i) => ( 
       <SmBall imgSkill={i.img} imgSkillText={i.skill}/>
@@ -33,7 +34,7 @@ function Skills() {
         <LgBall imgSkill={i.img} imgSkillText={i.skill}/>
         ))}
         </div>
-        </div>
+      </div>
         </div>
         
         </section>
