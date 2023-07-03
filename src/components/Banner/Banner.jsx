@@ -15,8 +15,8 @@ function Banner() {
         <br></br>
         My name is Kayle Robson and I am a Front End Web Developer.  </h1>
         </div>
-        <div className='z-999 flex-col md:flex-row md:items-center md:pl-[35%] md:mt-[55%] '>
-       <div className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full bg-cover bg-center " style={{backgroundImage: `url(${kayle})`}}></div>
+        <div className=' flex-col md:flex-row md:items-center md:pl-[35%] md:mt-[55%] '>
+       <div className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full bg-cover bg-center z-99999 " style={{backgroundImage: `url(${kayle})`}}></div>
        </div>
        </div>
     </section>

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Solar System",
+    "info": "",
+    "bgColor": "#FFF2E2",
+    "skills": [
+      {
+        "skillImg": "../../icons/mongo.png",
+        "skillText": "mongo"
+      },
+      {
+        "skillImg": "../../icons/express.png",
+        "skillText": "express"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/node.png",
+        "skillText": "node"
+      }
+    ],
+    "projectImg": ""
+  },
+  {
+    "name": "Briancon Fantomes",
+    "info": "",
+    "bgColor": "#DFAF5E",
+    "skills": [
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      }
+    ],
+    "projectImg": ""
+  },
+  {
+    "name": "Operation Mother Earth",
+    "info": "",
+    "bgColor": "#FFF2E2",
+    "skills": [
+      {
+        "skillImg": "../../icons/mongo.png",
+        "skillText": "mongo"
+      },
+      {
+        "skillImg": "../../icons/express.png",
+        "skillText": "express"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/node.png",
+        "skillText": "node"
+      }
+    ],
+    "projectImg": ""
+  },
+
+  {
+    "name": "Instock",
+    "info": "",
+    "bgColor": "#DFAF5E",
+    "skills": [
+      {
+        "skillImg": "../../icons/mongo.png",
+        "skillText": "mongo"
+      },
+      {
+        "skillImg": "../../icons/express.png",
+        "skillText": "express"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/node.png",
+        "skillText": "node"
+      }
+    ],
+    "projectImg": ""
+  }
+]
