@@ -22,13 +22,13 @@ function Skills() {
     <section className='bg-[#7FBABB] min-h-[400px] w-full py-[2rem]'>
     <div className='bg-white rounded-lg min-h-[350px] w-3/4 m-auto relative'>
     <img src={ladySkills} alt='working woman with skills' className='z-0 absolute inset-0 invisible object-none lg:visible mx-auto pt-[5%]' />
-    <div className='p-[2rem] m-auto h-[80%]'>
-    <div className=' flex justify-between items-center px-[1rem]'>
+    <div className='p-[2rem] m-auto min-h-[350px] py-auto'>
+    <div className='z-10 flex flex-wrap justify-around px-[1rem] py-[2rem]'>
     {smArray.map((i) => ( 
       <SmBall imgSkill={i.img} imgSkillText={i.skill}/>
       ))}
       </div>
-      <div className=' flex justify-evenly items-center x'>
+      <div className=' z-999 flex flex-wrap justify-evenly pt-[4rem]'>
       {bgArray.map((i) => (
         <LgBall imgSkill={i.img} imgSkillText={i.skill}/>
         ))}
