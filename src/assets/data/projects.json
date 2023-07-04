@@ -10,7 +10,7 @@
         "skillText": "mysql"
       },
       {
-        "skillImg": "../../icons/express.png",
+        "skillImg": "../../icons/express.svg",
         "skillText": "express"
       },
       {
@@ -26,7 +26,7 @@
         "skillText": "sass"
       }
     ],
-    "projectImg": "",
+    "projectImg": "../../images/galaticgif.gif",
     "backend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-backend",
     "frontend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-frontend",
     "deployed": "https://intergalactic-planetary.netlify.app/"
@@ -46,7 +46,7 @@
         "skillText": "react"
       }
     ],
-    "projectImg": "",
+    "projectImg": "../../images/bFV2.png",
     "backend": "",
     "frontend": "https://github.com/revyrob/brianconFantomes-V2",
     "deployed": "https://brianconfantomes.com"
@@ -58,11 +58,11 @@
     "bgColor": "#FFF2E2",
     "skills": [
       {
-        "skillImg": "../../icons/mongo.png",
+        "skillImg": "../../icons/mongo.svg",
         "skillText": "mongo"
       },
       {
-        "skillImg": "../../icons/express.png",
+        "skillImg": "../../icons/express.svg",
         "skillText": "express"
       },
       {
@@ -78,7 +78,7 @@
         "skillText": "sass"
       }
     ],
-    "projectImg": "",
+    "projectImg": "../../images/operation-mother-earth.png",
     "backend": "https://github.com/revyrob/operation-mother-earth/tree/main/operation-mother-earth_server",
     "frontend": "https://github.com/revyrob/operation-mother-earth/tree/main/operation-mother-earth_react",
     "deployed": "https://operation-mother-earth.netlify.app/"
@@ -91,7 +91,7 @@
     "bgColor": "#DFAF5E",
     "skills": [
       {
-        "skillImg": "../../icons/express.png",
+        "skillImg": "../../icons/express.svg",
         "skillText": "express"
       },
       {
@@ -107,7 +107,7 @@
         "skillText": "sass"
       }
     ],
-    "projectImg": "",
+    "projectImg": "../../images/instock.png",
     "backend": "https://github.com/revyrob/instock-json/tree/main/instock-server",
     "frontend": "https://github.com/revyrob/instock-json/tree/main/instock-client",
     "deployed": ""

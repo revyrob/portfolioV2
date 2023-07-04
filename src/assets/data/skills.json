@@ -5,7 +5,7 @@
   },
   {
     "skill": "Express",
-    "img": "./../icons/express.png"
+    "img": "./../icons/express.svg"
   },
   {
     "skill": "Flutter",
@@ -21,7 +21,7 @@
   },
   {
     "skill": "Mongo",
-    "img": "../../icons/mongo.png"
+    "img": "../../icons/mongo.svg"
   },
   {
     "skill": "MySQL",
