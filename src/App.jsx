@@ -13,7 +13,7 @@ function App() {
       <Banner />
       <Skills />
       {listProjects && listProjects.map((i) => (
-        <Projects bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills}/>
+        <Projects bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
       ))}
       
     </>

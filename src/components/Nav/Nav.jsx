@@ -86,9 +86,11 @@ function Nav() {
             <Menu id="resources-menu" anchorEl={anchorEl} open={Boolean(anchorEl)}
               onClose={handleCloseNavMenu}>
                 
-                <MenuItem><a href="/project1">Project1</a></MenuItem>
-                <MenuItem><a href="/project1">Project2</a></MenuItem>
-                <MenuItem><a href="/project1">Project3</a></MenuItem>
+                <MenuItem><a href="/#solarSystem" >Intergalactic Planetary</a></MenuItem>
+                <MenuItem><a href="/#brianconFantomes" >Briancon Fantomes</a></MenuItem>
+                <MenuItem><a href="/#motherEarth" >Mother Earth</a></MenuItem>
+                <MenuItem><a href="/#instock" > InStock</a></MenuItem>
+
 
             </Menu>
             </Box>

@@ -1,12 +1,13 @@
 [
   {
+    "id": "solarSystem",
     "name": "Solar System",
-    "info": "",
+    "info": "Intergalactic Planetary was built for to participate in a week-long hackathon. The team consisted of three developers who came together through the Hackathon discord channel, wireframed an idea, planned tickets/tasks through a Trello board, and communicated daily via Discord. Intergalactic Planetary is a full-stack application which teaches students about our solar system. The Homepage lets the user flip through all the planets within the solar system (which includes Pluto), gives the user other resources to extend their knowledge (we recommend checking out the solar system rap!), and a few fun facts about our solar system.  The planet cards on the home page have a 'Learn more' section where the user is directed to the individual page for that planet. The planet cards also have a locate button and when selected the planet is located on the solar system within the banner on the homepage.  Each planet has it's own planet page. The planet page includes basic information about the planet, 3 identifying facts on the specific planet, and the moons for the specific planet. Up to 10 moons for each planet are shown with the name of the moon, the size, and the name history for that moon.  The application if fully responsive in mobile, tablet, and desktop.  Out of 5 amazing teams and their projects we were very proud to be the winning team.",
     "bgColor": "#FFF2E2",
     "skills": [
       {
-        "skillImg": "../../icons/mongo.png",
-        "skillText": "mongo"
+        "skillImg": "../../icons/mysql.png",
+        "skillText": "mysql"
       },
       {
         "skillImg": "../../icons/express.png",
@@ -19,25 +20,41 @@
       {
         "skillImg": "../../icons/node.png",
         "skillText": "node"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
       }
     ],
-    "projectImg": ""
+    "projectImg": "",
+    "backend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-backend",
+    "frontend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-frontend",
+    "deployed": "https://intergalactic-planetary.netlify.app/"
   },
   {
+    "id": "brianconFantomes",
     "name": "Briancon Fantomes",
-    "info": "",
+    "info": "Briancon Fantomes is a audio tour which is a functioning business page in Briancon, France. Visitors are able to access the audio tour in French and English along with a map for all the audio tour stops. The website cross-references with Google, Facebook, Instagram, TripAdvisor, and Spotify to help gain more traction for the SEO. The first version of the website can be found here.  The page uses a couple of great npm libraries such as Framer-motion and React-audio-player. The application is styled with Tailwind. The text for the site is kept in two seperate json files, one for French and one for English. React useContext was used so that the language files could be swapped when the user chose their prefered language within the navbar. The language is then saved within their browser settings.",
     "bgColor": "#DFAF5E",
     "skills": [
       {
         "skillImg": "../../icons/react.png",
         "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
       }
     ],
-    "projectImg": ""
+    "projectImg": "",
+    "backend": "",
+    "frontend": "https://github.com/revyrob/brianconFantomes-V2",
+    "deployed": "https://brianconfantomes.com"
   },
   {
+    "id": "motherEarth",
     "name": "Operation Mother Earth",
-    "info": "",
+    "info": "Operation Mother Earth is a full stack application for children to learn about electronic waste. It is a multi-page React application which uses MongoDB as the database. There are 3 sections to the application. The application has three sections which include: Storyboard Game, Electronic Waste Recycling Center Finder, Education (Video/Q&A). The backend is hosted on Render therefore it may take a minute to wake up the backend since it is on the free version.  The Electronic Waste Recycling Center Finder is currently on hold since it used Google APIs and my free version has expired therefore I am looking at another alternative.  The application is mobile responsive.",
     "bgColor": "#FFF2E2",
     "skills": [
       {
@@ -55,20 +72,24 @@
       {
         "skillImg": "../../icons/node.png",
         "skillText": "node"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
       }
     ],
-    "projectImg": ""
+    "projectImg": "",
+    "backend": "https://github.com/revyrob/operation-mother-earth/tree/main/operation-mother-earth_server",
+    "frontend": "https://github.com/revyrob/operation-mother-earth/tree/main/operation-mother-earth_react",
+    "deployed": "https://operation-mother-earth.netlify.app/"
   },
 
   {
+    "id": "instock",
     "name": "Instock",
-    "info": "",
+    "info": "A Web Appliacation with CRUD functionality. A variety of warehouses, their information, and the inventory within them. The user is able to add, edit, and delete information within the warehouses and the inventory. Group project completed within 5 days with 2 other Software Engineers during the Brainstation Sofware Engineering Diploma Course.",
     "bgColor": "#DFAF5E",
     "skills": [
-      {
-        "skillImg": "../../icons/mongo.png",
-        "skillText": "mongo"
-      },
       {
         "skillImg": "../../icons/express.png",
         "skillText": "express"
@@ -80,8 +101,15 @@
       {
         "skillImg": "../../icons/node.png",
         "skillText": "node"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
       }
     ],
-    "projectImg": ""
+    "projectImg": "",
+    "backend": "https://github.com/revyrob/instock-json/tree/main/instock-server",
+    "frontend": "https://github.com/revyrob/instock-json/tree/main/instock-client",
+    "deployed": ""
   }
 ]
