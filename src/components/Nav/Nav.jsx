@@ -63,12 +63,12 @@ function Nav() {
                      Projects
                 </MenuItem>
                 <MenuItem >
-                  <a href="/">        
+                  <a href="/me">        
                      About Me 
                   </a>
                 </MenuItem>
                 <MenuItem >
-                  <a href="/">
+                  <a href="/resume">
                     Resume
                   </a>
                 </MenuItem>
