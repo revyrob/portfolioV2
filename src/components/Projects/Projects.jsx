@@ -16,8 +16,8 @@ function Projects({bgColor, name, info, projectImg, skills, frontend, backend, d
                 ))}
           </div>
           </div>
-          <div className='flex justify-center align-middle' >
-          <img  className="pl-3 h-[300px]" src={projectImg} alt={name}/>
+          <div className='flex justify-center align-middle w-[90%] lg:w-[45%] my-auto ' >
+          <img  className="pl-3 lg:h-[300px]" src={projectImg} alt={name}/>
           </div>
         </div>
     </div>

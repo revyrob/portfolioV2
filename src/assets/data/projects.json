@@ -26,7 +26,7 @@
         "skillText": "sass"
       }
     ],
-    "projectImg": "../../images/galaticgif.gif",
+    "projectImg": "../../images/galatic.png",
     "backend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-backend",
     "frontend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-frontend",
     "deployed": "https://intergalactic-planetary.netlify.app/"
