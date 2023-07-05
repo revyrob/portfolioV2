@@ -26,10 +26,25 @@ function Nav() {
         setMenuEl(null);
       };
 
+ //make it that after you get past the banner the background is a solid color
+    //use state to change color of navbar when it scrolls
+    const [nav, setNav] = useState(false);
 
+    const changeColor = () => {
+      if(window.scrollY >= 500) {
+        setNav(true)
+      }else {
+        setNav(false)
+      }
+    }
+
+    //add event listener to change color
+    window.addEventListener('scroll', changeColor)
 
   return (
-    <AppBar position='static' style={{ background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-2xl mx-auto">
+   
+
+     <AppBar position='fixed' style={nav ?  { background: '#7FBABB' }: { background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-3xl mx-auto ">
         <Container maxWidth="xl" className="bg-transparent ">
         <Toolbar >
         <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
