@@ -11,12 +11,13 @@ function Projects({bgColor, name, info, projectImg, skills, frontend, backend, d
           <p ><a className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${frontend}`} >Front-end</a> { backend === "" ? null : (<a  className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${backend}`} > Back-end</a>)}</p>
           <p className='py-3'>{info}</p>
           <div className='flex py-3 justify-around lg:w-[75%]'>
+            <p className='flex justify-center item-center'>Built with ➡️</p>
                 {skills.map((i) => (
                     <SmBall style={{backgroundColor: '#DFAF5E'}} className="bg-black" imgSkill={i.skillImg} imgSkillText={i.skillText}/>
                 ))}
           </div>
           </div>
-          <div className='flex justify-center align-middle w-[90%] lg:w-[45%] my-auto ' >
+          <div className='flex justify-center items-center w-[90%] lg:w-[45%] my-auto ' >
           <img  className="pl-3 lg:h-[300px]" src={projectImg} alt={name}/>
           </div>
         </div>
