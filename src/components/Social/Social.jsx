@@ -4,9 +4,9 @@ import linked from '../../assets/icons/icon-linkedin.png';
 import mail from '../../assets/icons/mail-icon.svg';
 import github from '../../assets/icons/github.svg';
 
-function Social({smSize, lgSize}) {
+function Social() {
     return (
-        <div className='flex w-[300px] justify-evenly'>
+        <div className='flex w-[300px] justify-evenly align-middle'>
         <a href="https://linkedin.com/in/kayle-robson "><div className=" bg-cover h-[30px] w-[30px] md:h-[50px] md:w-[50px] " style={{backgroundImage: `url(${linked})`}}></div></a>
         <a href="https://github.com/revyrob"><div className=" bg-cover h-[30px] w-[30px] md:h-[50px] md:w-[50px] " style={{backgroundImage: `url(${github})`}}></div></a>
         <a href="https://github.com/revyrob "><div className=" bg-cover h-[30px] w-[30px] md:h-[50px] md:w-[50px] " style={{backgroundImage: `url(${mail})`}}></div></a>

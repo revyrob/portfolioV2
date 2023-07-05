@@ -110,7 +110,7 @@ function Nav() {
 
             </Menu>
             </Box>
-            <Social smSize={30} lgSize={50}/>
+            <Social/>
         </Toolbar>
        
         </Container>
