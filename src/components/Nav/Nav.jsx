@@ -2,6 +2,7 @@ import React from 'react'
 import { AppBar, Toolbar, IconButton, Stack, Button, Menu, MenuItem, Container, Box  } from '@mui/material'
 import { useState } from 'react'
 import MenuIcon from "@mui/icons-material/Menu";
+import Social from '../Social/Social';
 
 
 function Nav() {
@@ -109,7 +110,9 @@ function Nav() {
 
             </Menu>
             </Box>
+            <Social smSize={30} lgSize={50}/>
         </Toolbar>
+       
         </Container>
     </AppBar>
   )
