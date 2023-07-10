@@ -5,7 +5,6 @@ import Footer from '../components/Footer/Footer'
 import Projects from '../components/Projects/Projects'
 import projects from '../assets/data/projects.json';
 import introInfo from '../assets/data/intro.json'
-import '../App.css'
 
 
 function Landing() { 
