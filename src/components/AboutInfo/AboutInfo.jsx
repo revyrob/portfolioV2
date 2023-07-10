@@ -18,7 +18,7 @@ function AboutInfo() {
         <p>{data.text.text4}</p>
         </div>
         
-        <div className='w-[100%] flex flex-wrap justify-evenly p-[10%]'>
+        <div className='w-[100%] flex flex-wrap justify-evenly px-[10%]'>
         <img className="h-[350px] w-[350px] m-[2rem]" src={data.images.img1} alt=""/>
         <img className="h-[350px] w-[350px] m-[2rem]" src={data.images.img2} alt=""/>
         <img className="h-[350px] w-[350px] m-[2rem]" src={data.images.img3} alt=""/>
