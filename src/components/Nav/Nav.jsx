@@ -91,11 +91,7 @@ function Nav() {
                 About Me 
                 </Link>
                 </MenuItem>
-                <MenuItem >
-                  <a href="/resume">
-                    Resume
-                  </a>
-                </MenuItem>
+               
                 </Menu>
                 </Box>
                 <Box
@@ -103,10 +99,9 @@ function Nav() {
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
             <Stack direction="row" spacing={2}>
-            <Button style={{ color: 'black' }} id="resources-button"><Link to="/"> <CottageIcon/></Link></Button>
+                  <Button style={{ color: 'black' }} ><Link to="/"> <CottageIcon/></Link></Button>
                 <Button style={{ color: 'black' }} id="resources-button" onClick={handleClick}>Projects<KeyboardArrowDownIcon/></Button>
                 <Button style={{ color: 'black' }}><Link to="/about"> About Me</Link></Button>
-                <Button style={{ color: 'black' }}>Resume</Button>
             </Stack>
             <Menu id="resources-menu" anchorEl={anchorEl} open={Boolean(anchorEl)}
               onClose={handleCloseNavMenu}>

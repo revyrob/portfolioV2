@@ -31,31 +31,12 @@
     "frontend": "https://github.com/revyrob/solarSystem/tree/main/solar-system-frontend",
     "deployed": "https://intergalactic-planetary.netlify.app/"
   },
-  {
-    "id": "brianconFantomes",
-    "name": "Briancon Fantomes",
-    "info": "Briancon Fantomes is an exceptional audio tour business nestled in the charming locale of Briancon, France. As a fully functional business page, it offers visitors an immersive experience through captivating audio tours available in both French and English, complemented by a comprehensive map highlighting all the tour stops.  To maximize its online presence and reach, the website cleverly utilizes cross-referencing with popular platforms such as Google, Facebook, Instagram, TripAdvisor, and Spotify. This strategic integration not only enhances the visibility of Briancon Fantomes but also amplifies its Search Engine Optimization (SEO), ensuring that it garners the attention it deserves.  To enhance the user experience, the page leverages the power of remarkable npm libraries such as Framer-motion and React-audio-player. These libraries contribute to the seamless navigation and immersive audio playback, elevating the overall quality of the audio tour experience.  Aesthetically, the website exudes elegance and modernity with its stylish design, thanks to the utilization of the Tailwind CSS framework. This choice of styling enhances the visual appeal and ensures a delightful browsing experience for visitors.  Effortlessly catering to the needs of a diverse audience, the website incorporates separate JSON files to store text content in both French and English. This intelligent design allows for easy language switching, facilitated by React useContext. Visitors can select their preferred language within the navbar, and the application dynamically adapts to their choice. Furthermore, to streamline the experience, the selected language preference is conveniently saved within the user's browser settings, providing a personalized and seamless browsing experience upon subsequent visits.  Briancon Fantomes stands as a shining example of a meticulously crafted audio tour business, seamlessly blending technology, captivating storytelling, and innovative design. It not only showcases the beauty and history of Briancon but also serves as a gateway for visitors to immerse themselves in an unforgettable journey through time and culture.",
-    "bgColor": "#DFAF5E",
-    "skills": [
-      {
-        "skillImg": "../../icons/react.png",
-        "skillText": "react"
-      },
-      {
-        "skillImg": "../../icons/tailwind.svg",
-        "skillText": "tailwind"
-      }
-    ],
-    "projectImg": "../../images/bFV2.png",
-    "backend": "",
-    "frontend": "https://github.com/revyrob/brianconFantomes-V2",
-    "deployed": "https://brianconfantomes.com"
-  },
+
   {
     "id": "motherEarth",
     "name": "Operation Mother Earth",
     "info": "Operation Mother Earth is an innovative and comprehensive full-stack application designed to educate children about the pressing issue of electronic waste. Rooted in React, this multi-page application seamlessly leverages MongoDB as its robust and reliable database.  The application features three engaging sections, each with a unique purpose. The Storyboard Game section invites children on an interactive journey, allowing them to explore the world of electronic waste through captivating storytelling. The Electronic Waste Recycling Center Finder, uses Google APIs to locate recycling centers within a 10km radius of the user.  The results are then mapped onto the interactive map and listed below the map.  The user can also add an e-waste recycling center to the map, using Google API Geocode.  The Education section further enhances learning through a combination of engaging videos and informative Q&A sessions.  Users can add their questions to the database, which will be answered at a later time.",
-    "bgColor": "#FFF2E2",
+    "bgColor": "#DFAF5E",
     "skills": [
       {
         "skillImg": "../../icons/mongo.svg",
@@ -83,7 +64,26 @@
     "frontend": "https://github.com/revyrob/operation-mother-earth/tree/main/operation-mother-earth_react",
     "deployed": "https://operation-mother-earth.netlify.app/"
   },
-
+  {
+    "id": "brianconFantomes",
+    "name": "Briancon Fantomes",
+    "info": "Briancon Fantomes is an exceptional audio tour business nestled in the charming locale of Briancon, France. As a fully functional business page, it offers visitors an immersive experience through captivating audio tours available in both French and English, complemented by a comprehensive map highlighting all the tour stops.  To maximize its online presence and reach, the website cleverly utilizes cross-referencing with popular platforms such as Google, Facebook, Instagram, TripAdvisor, and Spotify. This strategic integration not only enhances the visibility of Briancon Fantomes but also amplifies its Search Engine Optimization (SEO), ensuring that it garners the attention it deserves.  To enhance the user experience, the page leverages the power of remarkable npm libraries such as Framer-motion and React-audio-player. These libraries contribute to the seamless navigation and immersive audio playback, elevating the overall quality of the audio tour experience.  Aesthetically, the website exudes elegance and modernity with its stylish design, thanks to the utilization of the Tailwind CSS framework. This choice of styling enhances the visual appeal and ensures a delightful browsing experience for visitors.  Effortlessly catering to the needs of a diverse audience, the website incorporates separate JSON files to store text content in both French and English. This intelligent design allows for easy language switching, facilitated by React useContext. Visitors can select their preferred language within the navbar, and the application dynamically adapts to their choice. Furthermore, to streamline the experience, the selected language preference is conveniently saved within the user's browser settings, providing a personalized and seamless browsing experience upon subsequent visits.  Briancon Fantomes stands as a shining example of a meticulously crafted audio tour business, seamlessly blending technology, captivating storytelling, and innovative design. It not only showcases the beauty and history of Briancon but also serves as a gateway for visitors to immerse themselves in an unforgettable journey through time and culture.",
+    "bgColor": "#FFF2E2",
+    "skills": [
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/tailwind.svg",
+        "skillText": "tailwind"
+      }
+    ],
+    "projectImg": "../../images/bFV2.png",
+    "backend": "",
+    "frontend": "https://github.com/revyrob/brianconFantomes-V2",
+    "deployed": "https://brianconfantomes.com"
+  },
   {
     "id": "instock",
     "name": "Instock",
