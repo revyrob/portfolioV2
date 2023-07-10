@@ -76,7 +76,7 @@ function Nav() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem onClick={handleClick} hover={Boolean(anchorEl)}>
+              <MenuItem onClick={handleClick} >
                      Projects
                 </MenuItem>
                 <MenuItem >

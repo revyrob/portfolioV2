@@ -42,5 +42,9 @@
   {
     "skill": "sass",
     "img": "../../icons/sass.png"
+  },
+  {
+    "img": "../../icons/tailwind.svg",
+    "skill": "tailwind"
   }
 ]

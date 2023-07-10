@@ -13,7 +13,7 @@ function Projects({bgColor, name, info, projectImg, skills, frontend, backend, d
           <div className='flex py-3 justify-around lg:w-[75%]'>
             <p className='flex justify-center item-center'>Built with ➡️</p>
                 {skills.map((i) => (
-                    <SmBall style={{backgroundColor: '#DFAF5E'}} className="bg-black" imgSkill={i.skillImg} imgSkillText={i.skillText}/>
+                    <SmBall key={skills.indexOf(i)} style={{backgroundColor: '#DFAF5E'}} className="bg-black" imgSkill={i.skillImg} imgSkillText={i.skillText}/>
                 ))}
           </div>
           </div>

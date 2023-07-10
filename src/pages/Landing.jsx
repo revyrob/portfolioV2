@@ -12,7 +12,7 @@ function Landing() {
     <Banner />
     <Skills />
     {listProjects && listProjects.map((i) => (
-      <Projects bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
+      <Projects key={listProjects.indexOf(i)} bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
     ))}
     <Footer/>
     </>
