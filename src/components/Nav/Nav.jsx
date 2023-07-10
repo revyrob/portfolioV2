@@ -3,6 +3,7 @@ import { AppBar, Toolbar, IconButton, Stack, Button, Menu, MenuItem, Container, 
 import { useState } from 'react'
 import MenuIcon from "@mui/icons-material/Menu";
 import Social from '../Social/Social';
+import { Link } from 'react-router-dom';
 
 
 function Nav() {
@@ -79,9 +80,9 @@ function Nav() {
                      Projects
                 </MenuItem>
                 <MenuItem >
-                  <a href="/me">        
-                     About Me 
-                  </a>
+                <Link to="/about"> 
+                About Me 
+                </Link>
                 </MenuItem>
                 <MenuItem >
                   <a href="/resume">
@@ -96,7 +97,7 @@ function Nav() {
           >
             <Stack direction="row" spacing={2}>
                 <Button style={{ color: 'black' }} id="resources-button" onClick={handleClick}>Projects</Button>
-                <Button style={{ color: 'black' }}>About Me</Button>
+                <Button style={{ color: 'black' }}><Link to="/about"> About Me</Link></Button>
                 <Button style={{ color: 'black' }}>Resume</Button>
             </Stack>
             <Menu id="resources-menu" anchorEl={anchorEl} open={Boolean(anchorEl)}

@@ -2,7 +2,7 @@
   {
     "id": "solarSystem",
     "name": "Solar System",
-    "info": "Intergalactic Planetary was meticulously crafted as an ambitious endeavor for a thrilling week-long hackathon. The team, consisting of three highly skilled and passionate developers, united through the dynamic Hackathon discord channel. With their unwavering dedication and boundless creativity, they embarked on an exhilarating journey, meticulously shaping a captivating idea. The team's meticulous planning involved the creation of tickets and tasks, seamlessly organized through a Trello board. Furthermore, they maintained daily communication via Discord, fostering a harmonious synergy that propelled the project forward.  The hackathon presented a unique challenge: to create a full-stack application that would enable students to delve into the awe-inspiring realm of the solar system. As an added twist, the team was required to style all the planets using CSS alone, showcasing their mastery of front-end design. Moreover, each planet was given its own distinctive page, brimming with captivating and distinct information, offering a comprehensive learning experience for students.  To bring this vision to life, the team employed cutting-edge technologies. The React framework was chosen to power the dynamic front-end, ensuring a seamless and interactive user interface. For the back-end infrastructure, a robust MySQL database was meticulously designed and implemented, leveraging the power of AWS for hosting and scalability.  Amidst fierce competition from five exceptional teams, we humbly stand as the triumphant victors. ",
+    "info": "Intergalactic Planetary was meticulously crafted as an ambitious endeavor for a thrilling week-long hackathon.  The team, consisting of three highly skilled and passionate developers, united through the dynamic Hackathon discord channel. With their unwavering dedication and boundless creativity, they embarked on an exhilarating journey, meticulously shaping a captivating idea. The team's meticulous planning involved the creation of tickets and tasks, seamlessly organized through a Trello board. Furthermore, they maintained daily communication via Discord, fostering a harmonious synergy that propelled the project forward.  The hackathon presented a unique challenge: to create a full-stack application that would enable students to delve into the awe-inspiring realm of the solar system. As an added twist, the team was required to style all the planets using CSS alone, showcasing their mastery of front-end design. Moreover, each planet was given its own distinctive page, brimming with captivating and distinct information, offering a comprehensive learning experience for students.  To bring this vision to life, the team employed cutting-edge technologies. The React framework was chosen to power the dynamic front-end, ensuring a seamless and interactive user interface. For the back-end infrastructure, a robust MySQL database was meticulously designed and implemented, leveraging the power of AWS for hosting and scalability.  Amidst fierce competition from five exceptional teams, we humbly stand as the triumphant victors. ",
     "bgColor": "#FFF2E2",
     "skills": [
       {
@@ -42,8 +42,8 @@
         "skillText": "react"
       },
       {
-        "skillImg": "../../icons/react.png",
-        "skillText": "react"
+        "skillImg": "../../icons/tailwind.svg",
+        "skillText": "tailwind"
       }
     ],
     "projectImg": "../../images/bFV2.png",

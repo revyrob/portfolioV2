@@ -1,0 +1,15 @@
+[
+  {
+    "text": {
+      "text1": "I have a  multi-tool of skills and experiences - from owning a wine bar in Revelstoke, working in the service industry in England, Scotland, and France, collecting soil and air samples as an environmental technician, bookkeeping,  to driving a snowcat at multiple resorts.   I’ve accumulated diverse skills that make me an effective communicator, resilient problem-solver, continuous learner, and an asset to any team.",
+      "text2": "I have been working in the tech industry for 3 years.  Over the last year I completed a diploma in Web Development, mentored junior developers for Brainstation while I worked as a Teaching Assistant, and finished my first year of a Computing Science Degree.",
+      "text3": "My passion for creativity and new ideas drives me to develop new applications, leveraging my desire to constantly learn to create innovative solutions.   My ability to plan, think analytically, and isolate problems helps me to create resilient, functional, and fault tolerant applications.",
+      "text4": "As a self-aware, energetic individual, I bring an empathetic and user-friendly perspective to everything I do.  "
+    },
+    "images": {
+      "img1": "./images/skiing.png",
+      "img2": "./images/family.png",
+      "img3": "./images/climbing.png"
+    }
+  }
+]

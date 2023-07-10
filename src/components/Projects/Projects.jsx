@@ -9,7 +9,7 @@ function Projects({bgColor, name, info, projectImg, skills, frontend, backend, d
           <h1 className='text-2xl pb-3'>{name}</h1>
           {deployed === "" ? null : (<p className='py-3 text-[#cc1753]'>🚀 <a href={`${deployed}`} >{deployed}</a></p>)}
           <p ><a className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${frontend}`} >Front-end</a> { backend === "" ? null : (<a  className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${backend}`} > Back-end</a>)}</p>
-          <p className='py-3'>{info}</p>
+          <p className='py-3 leading-8'>{info}</p>
           <div className='flex py-3 justify-around lg:w-[75%]'>
             <p className='flex justify-center item-center'>Built with ➡️</p>
                 {skills.map((i) => (
