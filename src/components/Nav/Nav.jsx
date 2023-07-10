@@ -4,7 +4,8 @@ import { useState } from 'react'
 import MenuIcon from "@mui/icons-material/Menu";
 import Social from '../Social/Social';
 import { Link } from 'react-router-dom';
-
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import CottageIcon from '@mui/icons-material/Cottage';
 
 function Nav() {
     
@@ -50,6 +51,7 @@ function Nav() {
         <Container maxWidth="xl" className="bg-transparent ">
         <Toolbar >
         <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+         
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -76,8 +78,13 @@ function Nav() {
                 display: { xs: "block", md: "none" },
               }}
             >
+              <MenuItem >
+                <Link to="/"> 
+                <CottageIcon/>
+                </Link>
+                </MenuItem>
               <MenuItem onClick={handleClick} >
-                     Projects
+                     Projects <KeyboardArrowDownIcon/>
                 </MenuItem>
                 <MenuItem >
                 <Link to="/about"> 
@@ -96,7 +103,8 @@ function Nav() {
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
             <Stack direction="row" spacing={2}>
-                <Button style={{ color: 'black' }} id="resources-button" onClick={handleClick}>Projects</Button>
+            <Button style={{ color: 'black' }} id="resources-button"><Link to="/"> <CottageIcon/></Link></Button>
+                <Button style={{ color: 'black' }} id="resources-button" onClick={handleClick}>Projects<KeyboardArrowDownIcon/></Button>
                 <Button style={{ color: 'black' }}><Link to="/about"> About Me</Link></Button>
                 <Button style={{ color: 'black' }}>Resume</Button>
             </Stack>
