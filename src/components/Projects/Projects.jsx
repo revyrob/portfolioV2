@@ -1,9 +1,26 @@
 import React from 'react'
-import SmBall from '../SmBall/SmBall'
+import SmBall from '../SmBall/SmBall';
+//import './Projects.scss'
 
 function Projects({bgColor, name, info, projectImg, skills, frontend, backend, deployed, id}) {
+  // //observe entries
+  // const observer = new IntersectionObserver ((entries) => {
+  //   entries.forEach((entry) => {
+  //     console.log(entry)
+  //     if(entry.isIntersecting) {
+  //       entry.target.classList.add('show');
+  //     }else {
+  //       entry.target.classList.remove('show')
+  //     }
+  //   });
+  // });
+
+  // //observe all hidden elements
+  // const hiddenElements = document.querySelectorAll('.hidden');
+  // hiddenElements.forEach((el) => observer.observe(el));
+
   return (
-    <div id={id} className='min-h-[250px] w-full py-[2rem]' style={{backgroundColor : `${bgColor}` }} >
+    <div id={id} className='min-h-[250px] w-full py-[2rem] ' style={{backgroundColor : `${bgColor}` }} >
         <div className='max-w-screen-xl m-auto px-3 flex flex-col lg:flex-row md:justify-between'>
           <div className='lg:w-[65%]'>
           <h1 className='text-2xl pb-3'>{name}</h1>

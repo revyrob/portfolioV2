@@ -18,11 +18,13 @@ function Skills() {
   const smArray = evenArray.filter(i => i !== null)
   const bgArray = oddArray.filter(j => j !== null)
   
+  
+
   return (
     <section className='bg-[#7FBABB] min-h-[400px] w-full py-[1rem] md:py-[2rem]'>
     <div className='bg-white rounded-lg min-h-[350px] w-[90%] md:w-3/4 m-auto relative'>
     <img src={ladySkills} alt='working woman with skills' className='invisible z-0 object-none lg:visible absolute pl-[2%] pt-[7%]' />
-    <h1 className='text-4xl p-3 static lg:pl-[15%] xl:pt-[10%] xl:absolute '>Skills</h1>
+    <h1 className='text-4xl p-3 static lg:pl-[15%] xl:pt-[10%] xl:absolute font-bold'>Skills</h1>
    <div className='lg:p-[2rem] m-auto  lg:py-auto lg:pl-[15%] p-0'>
     <div className='z-999 flex flex-wrap justify-evenly md:justify-around px-[1rem] md:py-[2rem]'>
     {smArray.map((i) => ( 

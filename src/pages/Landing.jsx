@@ -5,16 +5,34 @@ import Footer from '../components/Footer/Footer'
 import Projects from '../components/Projects/Projects'
 import projects from '../assets/data/projects.json';
 import introInfo from '../assets/data/intro.json'
+//import '../App.css';
 
 
 function Landing() { 
     const listProjects = projects;
+
+  //   //observe entries
+  // const observer = new IntersectionObserver ((entries) => {
+  //   entries.forEach((entry) => {
+  //     console.log(entry)
+  //     if(entry.isIntersecting) {
+  //       entry.target.classList.add('show');
+  //     }else {
+  //       entry.target.classList.remove('show')
+  //     }
+  //   });
+  // });
+
+  // //observe all hidden elements
+  // const hiddenElements = document.querySelectorAll('.hidden');
+  // hiddenElements.forEach((el) => observer.observe(el));
+
   return (
     <div className='font-sans tracking-wide'>
     <Banner intro1={introInfo.intro[0]} intro2={introInfo.intro[1]}/>
-    <Skills />
+    <Skills className="hidden" />
     {listProjects && listProjects.map((i) => (
-      <Projects key={listProjects.indexOf(i)} bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
+      <Projects  key={listProjects.indexOf(i)} bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
     ))}
     <Footer/>
     </div>
