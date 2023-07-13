@@ -16,7 +16,7 @@ function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, pr
           <p className='py-3 leading-8'>{infoProject}</p>
           <p className='py-3 leading-8'>{infoDevelopment}</p>
           <p className='py-3 leading-8'>{infoSolution}</p>
-          <div className='flex py-3 justify-around '>
+          <div className='flex py-3 justify-around flex-wrap'>
             <p className='flex justify-center item-center'>Built with ➡️</p>
                 {skills.map((i) => (
                     <SmBall key={skills.indexOf(i)} style={{backgroundColor: '#DFAF5E'}} className="bg-black" imgSkill={i.skillImg} imgSkillText={i.skillText}/>
