@@ -29,7 +29,7 @@ function Landing() {
     <Banner intro1={introInfo.intro[0]} intro2={introInfo.intro[1]}/>
     <Skills  />
     {listProjects && listProjects.map((i) => (
-      <Projects   key={listProjects.indexOf(i)} bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id}/>
+      <Projects   key={listProjects.indexOf(i)} bgColor={i.bgColor} name={i.name} info={i.info} projectImg={i.projectImg} skills={i.skills} backend={i.backend} frontend={i.frontend} deployed={i.deployed} id={i.id} infoProject={i.infoProject} infoDevelopment={i.infoDevelopment} infoSolution={i.infoSolution}/>
       ))}
       <Footer />
       </div>

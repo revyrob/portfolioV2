@@ -1,25 +1,8 @@
 import React from 'react'
 import SmBall from '../SmBall/SmBall';
-import { useRef, useState, useEffect } from 'react';
 
-function Projects({bgColor, name, info, projectImg, skills, frontend, backend, deployed, id}) {
-  // //useRefs
-  // const containerRef = useRef(null)
-  // //useState for visible elements
-  // const [projectVisible, setProjectVisible] = useState();
-  // console.log(projectVisible)
-
+function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, projectImg, skills, frontend, backend, deployed, id}) {
   
-  // useEffect(() => {
-  //   //observe entries
-  //  const observer = new IntersectionObserver((entries) => {
-  //   const entry = entries[0];
-  //   setProjectVisible(entry.isIntersecting)
-  //   console.log('entry', entry)
-   
-  //  })
-  //  observer.observe(containerRef.current)
-  // }, [])
 
   return (
     <>
@@ -30,8 +13,10 @@ function Projects({bgColor, name, info, projectImg, skills, frontend, backend, d
           <h1 className='text-2xl pb-3'>{name}</h1>
           {deployed === "" ? null : (<p className='py-3 text-[#cc1753]'>🚀 <a href={`${deployed}`} >{deployed}</a></p>)}
           <p ><a className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${frontend}`} >Front-end</a> { backend === "" ? null : (<a  className='bg-[#7fbabb91] hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow' href={`${backend}`} > Back-end</a>)}</p>
-          <p className='py-3 leading-8'>{info}</p>
-          <div className='flex py-3 justify-around lg:w-[75%]'>
+          <p className='py-3 leading-8'>{infoProject}</p>
+          <p className='py-3 leading-8'>{infoDevelopment}</p>
+          <p className='py-3 leading-8'>{infoSolution}</p>
+          <div className='flex py-3 justify-around '>
             <p className='flex justify-center item-center'>Built with ➡️</p>
                 {skills.map((i) => (
                     <SmBall key={skills.indexOf(i)} style={{backgroundColor: '#DFAF5E'}} className="bg-black" imgSkill={i.skillImg} imgSkillText={i.skillText}/>
