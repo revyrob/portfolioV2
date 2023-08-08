@@ -15,7 +15,8 @@ module.exports = {
         // Roboto: "Roboto",
       },
       backgroundImage: {
-        "hero-pattern": "url('/assets/mountain.png')",
+        "hero-pattern": "url('/images/mountain.png')",
+        "skill-worker": "url('/images/mountain.png')",
       },
       keyframes: {
         horizontal: {

@@ -9,7 +9,7 @@ function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, pr
     
     <div id={id} className='min-h-[250px] w-full py-[2rem]' style={{backgroundColor : `${bgColor}` }} >
     
-        <div className='max-w-screen-xl m-auto px-3 flex flex-col lg:flex-row md:justify-between animate-marquee2'>
+        <div className='max-w-screen-xl m-auto flex flex-col lg:flex-row md:justify-between animate-marquee2'>
           <div className='lg:w-[65%]'>
           <h1 className='text-2xl pb-3'>{name}</h1>
           {deployed === "" ? null : (<p className='py-3 text-[#cc1753]'>🚀 <a href={`${deployed}`} >{deployed}</a></p>)}
