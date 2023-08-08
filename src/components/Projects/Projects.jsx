@@ -6,6 +6,7 @@ function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, pr
 
   return (
     <>
+    
     <div id={id} className='min-h-[250px] w-full py-[2rem]' style={{backgroundColor : `${bgColor}` }} >
     
         <div className='max-w-screen-xl m-auto px-3 flex flex-col lg:flex-row md:justify-between animate-marquee2'>
