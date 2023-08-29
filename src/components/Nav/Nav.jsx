@@ -34,7 +34,7 @@ function Nav() {
     const [nav, setNav] = useState(false);
 
     const changeColor = () => {
-      if(window.scrollY >= 500) {
+      if(window.scrollY >= 100) {
         setNav(true)
       }else {
         setNav(false)
@@ -47,7 +47,7 @@ function Nav() {
   return (
    
 
-     <AppBar position='fixed' style={nav ?  { background: '#7FBABB' }: { background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-3xl mx-auto font-mono">
+     <AppBar position='fixed' style={nav ?  { background: 'rgba(255, 242, 226, 1)' }: { background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-3xl mx-auto font-mono">
         <Container maxWidth="xl" className="bg-transparent ">
         <Toolbar >
         <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

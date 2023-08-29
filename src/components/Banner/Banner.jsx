@@ -8,10 +8,10 @@ function Banner({intro1, intro2}) {
   
   return (
     
-    <section className=" bg-cover max-w-screen-xl m-auto " style={{backgroundImage: `url(${mountain})`}}>
+    <section className=" bg-cover max-w-screen-2xl m-auto" style={{backgroundImage: `url(${mountain})`}}>
         <Nav/>
         
-        <div className='h-[600px] flex flex-col justify-evenly px-[20%] md:flex-row items-center '>
+        <div className='h-[600px] pt-[90px] md:pt-0 md:h-[900px] flex flex-col justify-evenly px-[20%] md:flex-row items-center '>
           <div>
         <h1 className='w-[20rem] md:text-2xl xl:w-[30rem] font-medium'>{intro2}</h1><br></br>
         <br></br>
