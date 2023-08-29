@@ -24,7 +24,7 @@ function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, pr
     className="box"
     ref={ref}>
     
-    <div id={id} className='min-h-[250px] w-full py-[2rem]' style={{backgroundColor : `${bgColor}` }} >
+    <div id={id} className='min-h-[250px] w-full p-[2rem]' style={{backgroundColor : `${bgColor}` }} >
     
         <div className='max-w-screen-xl m-auto flex flex-col lg:flex-row md:justify-between animate-marquee2'>
           <div className='lg:w-[65%]'>
