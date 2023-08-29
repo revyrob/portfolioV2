@@ -1,11 +1,28 @@
 import React from 'react'
 import SmBall from '../SmBall/SmBall';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, projectImg, skills, frontend, backend, deployed, id}) {
+        
+  const [ref, inView] = useInView({
+    threshold: .25,
+    triggerOnce: false
+  });
   
+  const variants = {
+    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, scale: 0.75 }
+  };
 
   return (
-    <>
+    <motion.div
+    animate={inView ? "visible" : "hidden"}
+    variants={variants}
+    exit="hidden"
+    transition={{ duration: 2 }}
+    className="box"
+    ref={ref}>
     
     <div id={id} className='min-h-[250px] w-full py-[2rem]' style={{backgroundColor : `${bgColor}` }} >
     
@@ -30,7 +47,7 @@ function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, pr
         </div>
         
     </div> 
-    </>
+    </motion.div>
   )
 }
 
