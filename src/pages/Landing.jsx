@@ -23,9 +23,9 @@ function Landing() {
   
   
   return (
-    <div className='font-sans tracking-wide'>
+    <div className='font-mono tracking-wide'>
     <Banner intro1={introInfo.intro[0]} intro2={introInfo.intro[1]}/>
-    <Skills  />
+  
     
    <ProjectSec/>
       <Footer />

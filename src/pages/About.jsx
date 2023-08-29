@@ -6,7 +6,7 @@ import introInfo from '../assets/data/intro.json'
 
 function About() {
   return (
-    <div className='font-sans tracking-wide'>
+    <div className='font-mono tracking-wide'>
 <Banner intro1={introInfo.about[0]} intro2={introInfo.about[1]}/>
 <AboutInfo />
 <Footer />

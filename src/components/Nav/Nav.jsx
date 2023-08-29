@@ -47,7 +47,7 @@ function Nav() {
   return (
    
 
-     <AppBar position='fixed' style={nav ?  { background: '#7FBABB' }: { background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-3xl mx-auto ">
+     <AppBar position='fixed' style={nav ?  { background: '#7FBABB' }: { background: 'rgba(255, 242, 226, .05)' }} className=" max-w-screen-3xl mx-auto font-mono">
         <Container maxWidth="xl" className="bg-transparent ">
         <Toolbar >
         <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

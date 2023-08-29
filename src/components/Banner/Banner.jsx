@@ -13,12 +13,13 @@ function Banner({intro1, intro2}) {
         
         <div className='h-[600px] flex flex-col justify-evenly px-[20%] md:flex-row items-center '>
           <div>
-        <h1 className='w-[10rem] md:text-2xl md:w-[20rem]'>{intro1}<br></br>
+        <h1 className='w-[20rem] md:text-2xl xl:w-[30rem] font-medium'>{intro2}</h1><br></br>
         <br></br>
-       {intro2}</h1>
         </div>
         <div className=' flex-col md:flex-row md:items-center md:pl-[35%] '>
        <div className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full bg-cover bg-center z-99999 " style={{backgroundImage: `url(${kayle})`}}></div>
+       <h1 className='text-center font-semibold md:text-2xl'>{intro1}</h1>
+
        </div>
        </div>
     </section>
