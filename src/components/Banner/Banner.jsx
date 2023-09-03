@@ -13,7 +13,7 @@ function Banner({intro1, intro2}) {
     <section className=" bg-cover max-w-screen-2xl m-auto" style={{backgroundImage: `url(${mountain})`}}>
     <Nav/>
     
-    <div className='h-[600px] pt-[90px] md:pt-0 md:h-[900px] flex flex-col justify-evenly  md:flex-row items-center '>
+    <div className=' pt-[100px] md:pt-0 md:h-[900px] flex flex-col justify-evenly  md:flex-row items-center '>
     <div>
     <h1 className='w-[20rem] leading-10 md:text-2xl xl:w-[30rem] font-medium'>{intro2}</h1>
     </div>
