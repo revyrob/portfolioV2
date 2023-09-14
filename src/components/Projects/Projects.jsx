@@ -6,8 +6,8 @@ import { useInView } from "react-intersection-observer";
 function Projects({bgColor, name, infoProject, infoDevelopment, infoSolution, projectImg, skills, frontend, backend, deployed, id}) {
         
   const [ref, inView] = useInView({
-    threshold: .25,
-    triggerOnce: false
+    threshold: .1,
+    triggerOnce: true
   });
   
   const variants = {

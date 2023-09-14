@@ -25,7 +25,7 @@ function Banner({intro1, intro2}) {
     transition={{
       duration: 1,
       delay: 0.5,
-      ease: [0, 0.3, 0.3, 1.01]
+      easeIn: [0, 0.3, 0.3, 1.01]
     }}
       >
       <div className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full bg-cover bg-center z-99999 " style={{backgroundImage: `url(${kayle})`}}></div>
