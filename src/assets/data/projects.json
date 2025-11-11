@@ -52,7 +52,7 @@
   },
   {
     "id": "Reconnector",
-    "name": "Reconnector",
+    "name": "reconnector",
     "infoProject": "Having common interests can create empathy and understanding between co-workers. As companies go remote giving employees more freedom it can remove the a company’s culture by not giving the opportunity for co-workers to find common interests outside of work. Our app helps to build that bridge. We want to repair those bonds of common interest but also bring a sense of company pride and gamification to it. As companies take the step towards going fully remote, employees can lose the banter and kinship. With our app you can share events with other employees and compete against other companies for points.",
     "infoDevelopment": "The team, consisting of five passionate developers, united through the dynamic Hackathon discord channel. With their unwavering dedication and boundless creativity. The team's meticulous planning involved the creation of tickets and tasks, seamlessly organized through a Trello board. Furthermore, they maintained daily communication via Discord, fostering a harmonious synergy that propelled the project forward.",
     "infoSolution": "Frontend: React; Database and Authorization: Supabase. ",
