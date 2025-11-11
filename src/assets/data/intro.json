@@ -1,7 +1,7 @@
 {
   "intro": [
-    "const myName = 'Kayle Robson';",
-    "I embody a versatile toolkit of skills and experiences, cultivated through diverse journeys, which collectively define me as an adept communicator, a tenacious problem-solver, an insatiable learner, and an invaluable team asset."
+    "let myName: string = 'Kayle Robson';",
+    "Full-stack developer with experience delivering scalable web apps and BI solutions using React, Node.js, SQL, and Azure. Skilled in full project lifecycles, API integration, and building Power BI dashboards to support data-driven decisions. Collaborative and detail-oriented, with a focus on performance, security, and enterprise-grade development."
   ],
   "about": [
     "",

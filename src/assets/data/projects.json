@@ -1,5 +1,86 @@
 [
   {
+    "id": "securityCameraSimulator",
+    "name": "Security Camera Simulator",
+    "infoProject": "Frontend application which I built while I was doing an internship as a web developer with Breeze Digital. I updated a previous simulator which was build with HTML and jquery and moved it into a React application which could be connected with the backend for different camera simulations.",
+    "infoDevelopment": "Work project which is in production on the client's website. Find the simulator within their product pages, link above goes to the neptune camera page.",
+    "infoSolution": "",
+    "bgColor": "#DFAF5E",
+    "skills": [
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
+      }
+    ],
+    "projectImg": "../../images/simulator.png",
+    "backend": "",
+    "frontend": "",
+    "deployed": "https://www.infinitioptics.com/cameras/neptune"
+  },
+  {
+    "id": "MathWiz",
+    "name": "MathWiz",
+    "infoProject": "Full-stack application, React for the frontend, and Node for the backend. An interactive multiplication app for all ages to work on their multiplication skills. This was inspired by Wordle!",
+    "infoDevelopment": "Personal project to help my kids with multiplication.",
+    "infoSolution": "Frontend: React; Backend: Node, Express",
+    "bgColor": "#FFF2E2",
+    "skills": [
+      {
+        "skillImg": "../../icons/express.svg",
+        "skillText": "express"
+      },
+      {
+        "skillImg": "../../icons/node.png",
+        "skillText": "node"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
+      }
+    ],
+    "projectImg": "../../images/MathWiz.png",
+    "backend": "https://github.com/revyrob/math-wiz-Backend",
+    "frontend": "https://github.com/revyrob/MathWizardReact"
+  },
+  {
+    "id": "Reconnector",
+    "name": "Reconnector",
+    "infoProject": "Having common interests can create empathy and understanding between co-workers. As companies go remote giving employees more freedom it can remove the a company’s culture by not giving the opportunity for co-workers to find common interests outside of work. Our app helps to build that bridge. We want to repair those bonds of common interest but also bring a sense of company pride and gamification to it. As companies take the step towards going fully remote, employees can lose the banter and kinship. With our app you can share events with other employees and compete against other companies for points.",
+    "infoDevelopment": "The team, consisting of five passionate developers, united through the dynamic Hackathon discord channel. With their unwavering dedication and boundless creativity. The team's meticulous planning involved the creation of tickets and tasks, seamlessly organized through a Trello board. Furthermore, they maintained daily communication via Discord, fostering a harmonious synergy that propelled the project forward.",
+    "infoSolution": "Frontend: React; Database and Authorization: Supabase. ",
+    "bgColor": "#DFAF5E",
+    "skills": [
+      {
+        "skillImg": "../../icons/postgreSQL.png",
+        "skillText": "PostgreSQL"
+      },
+      {
+        "skillImg": "../../icons/express.svg",
+        "skillText": "express"
+      },
+      {
+        "skillImg": "../../icons/react.png",
+        "skillText": "react"
+      },
+      {
+        "skillImg": "../../icons/sass.png",
+        "skillText": "sass"
+      }
+    ],
+    "projectImg": "../../images/Reconnector.png",
+    "frontend": "https://github.com/NuraSad/reconnector-frontend",
+    "backend": "",
+    "deployed": "https://reconnector.vercel.app/"
+  },
+  {
     "id": "solarSystem",
     "name": "Solar System",
     "infoProject": "Intergalactic Planetary was meticulously crafted as an ambitious endeavor for a thrilling week-long hackathon.  The hackathon presented a unique challenge: to create a full-stack application that would enable students to delve into the awe-inspiring realm of the solar system. As an added twist, the team was required to style all the planets using CSS alone, showcasing their mastery of front-end design. Moreover, each planet was given its own distinctive page, brimming with captivating and distinct information, offering a comprehensive learning experience for students.",
@@ -119,5 +200,35 @@
     "backend": "https://github.com/revyrob/instock-json/tree/main/instock-server",
     "frontend": "https://github.com/revyrob/instock-json/tree/main/instock-client",
     "deployed": ""
+  },
+  {
+    "id": "bikeBriancon",
+    "name": "Bike Briancon",
+    "infoProject": "My first website build ever. I wanted to learn about QGIS (similar to ArcGIS, but open source) and web development. I was living in Briancon, France and I found that the bike trail communication was poor so I started recording my trails and scraping trail data off of other sites.",
+    "infoDevelopment": "As I learned new skills I incorporated them into the website.",
+    "infoSolution": "The web app gives a map where you can geolocate yourself and find out general information on each trail by clicking on it and a pop-up will appear. I also added additional information, like biking guide companies I rode and talked to about local trails and hazards in the mountains such as sheep dogs.",
+    "bgColor": "#FFF2E2",
+    "skills": [
+      {
+        "skillImg": "../../icons/html.png",
+        "skillText": "HTML"
+      },
+      {
+        "skillImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
+        "skillText": "javascript"
+      },
+      {
+        "skillImg": "https://qgis.org/styleguide/visual/qgis-logo.svg",
+        "skillText": "QGIS"
+      },
+      {
+        "skillImg": "../../icons/bootstrap.svg",
+        "skillText": "Bootstrap"
+      }
+    ],
+    "projectImg": "../../images/bikeBriancon.png",
+    "backend": "",
+    "frontend": "https://github.com/revyrob/bikeBriancon",
+    "deployed": "https://revyrob.github.io/bikeBriancon/"
   }
 ]
