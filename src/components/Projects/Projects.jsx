@@ -44,7 +44,7 @@ function Projects({
           <div className="lg:w-[65%]">
             <h1 className="text-2xl pb-3">{name}</h1>
             {deployed === "" ? null : (
-              <p className="py-3 text-[#cc1753]">
+              <p className="text-xs py-3 text-[#cc1753] md:text-base ">
                 🚀 <a href={`${deployed}`}>{deployed}</a>
               </p>
             )}
